@@ -1,0 +1,26 @@
+{
+  "apps" : [{
+    "name"      : "defense",
+    "script"    : "server.js",
+    "env": {
+      "COMMON_VARIABLE": "true"
+    },
+    "env_production" : {
+      "NODE_ENV": "production"
+    }
+  }],
+  "deploy" : {
+    "production" : {
+      "user" : "root",
+      "host" : ["120.78.180.117"],
+      "port" :22,
+      "ref"  : "origin/master",
+      "repo" : "https://github.com/Pain-and-Love/defense.git",
+      "path" : "~/defense",
+      "ssh_options": "StrictHostKeyChecking=no",
+      "env"  : {
+        "NODE_ENV": "production"
+      }
+    }
+  }
+}
