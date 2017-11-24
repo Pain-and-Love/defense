@@ -16,7 +16,7 @@
       "port" :22,
       "ref"  : "origin/master",
       "repo" : "https://github.com/Pain-and-Love/defense.git",
-      "path" : "~/defense",
+      "path" : "/root/defense",
       "ssh_options": "StrictHostKeyChecking=no",
       "env"  : {
         "NODE_ENV": "production"
