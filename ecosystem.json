@@ -15,7 +15,7 @@
       "host" : "120.78.180.117",
       "ref"  : "origin/master",
       "repo" : "https://github.com/Pain-and-Love/defense.git",
-      "path" : "~/defense",
+      "path" : "/root/defense",
       "ssh_options": "StrictHostKeyChecking=no",
       "post-deploy" : "npm install && pm2 startOrRestart ecosystem.json --env production",
       "env"  : {
