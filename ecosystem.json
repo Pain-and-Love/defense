@@ -12,7 +12,7 @@
   "deploy" : {
     "production" : {
       "user" : "root",
-      "host" : ["120.78.180.117"],
+      "host" : "120.78.180.117",
       "port" :22,
       "ref"  : "origin/master",
       "repo" : "https://github.com/Pain-and-Love/defense.git",
